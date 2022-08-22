@@ -1,4 +1,52 @@
+
+body {
+    
+}
+
 #title {
     color:red;
     font-size: 166px;
+    text-align: center;
+    background-color: turquoise;
+}
+
+.top {
+    color:pink;
+    background-color:black;
+}
+
+.middle {
+    color:blue;
+    background-color:black;
+}
+
+.bottom {
+    color:green;
+    background-color: #ff0000;
+}
+
+img {
+    height:auto;
+    width:350px;
+}
+
+.class > .second-class {
+    font-size:44px;
+}
+
+.class.second-class {
+    font-size:22px;
+}
+
+#SC {
+    font-size:60px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    gap:16px;
+
 }
